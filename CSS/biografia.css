@@ -40,4 +40,25 @@ body{
 
 .box p{
     text-align: justify;
+    color: black;
+}
+.texto{
+    text-align: justify;
+    color: red;
+}
+nav{
+    background-color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    
+}
+nav > a:hover{
+    text-decoration: underline;  
+    color: red;
 }

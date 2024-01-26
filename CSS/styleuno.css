@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color:rgba(90, 96, 102, 0.452); 
 }
 
 body{
@@ -34,17 +35,19 @@ header{
 nav{
     text-align: right;
     padding: 30px 50px 0 0;
+    
 }
 
 nav{
-    color: white;
+    background-color: white;
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
 }
 
 nav > a:hover{
-    text-decoration: underline;  
+    text-decoration: underline;
+    color: red;  
 }
 
 header .textos-header{
@@ -97,6 +100,7 @@ header .textos-header{
 .imagen-port{
     width: 24%;
     margin-bottom: 10px;
+    
 }
 .imagen-port > img{
     width: 100%;
@@ -104,3 +108,5 @@ header .textos-header{
     object-fit: cover;
     display: block;
 }
+
+
